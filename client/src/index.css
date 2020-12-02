@@ -1,6 +1,7 @@
 body{
-  background: #eee;
+  background: #DDA0DD;
   font-family: "Nution SemiBold";
+  
   
 }
 #main h1{
@@ -30,10 +31,40 @@ height:100%;
   border:1px solid #880E4f;
 box-shadow:1px 2px 3px rgba(0,0,0,0.3);
 cursor:pointer;
-color:#880E4f
+color:#880E4f;
+background-color:white;
 
 }
 .book-list li:hover{
 background-color: #880E4f;
 color:white
+}
+#add-book{
+ margin-left: 40%;
+ padding-top: 10px;
+}
+#add-book>.field{
+  
+  padding-top: 30px;
+ }
+ #add-book>.field>input{
+  
+  margin-left: 30px;
+ }
+ #add-book>.field>.two{
+  
+  margin-left: 65px;
+ }
+ #add-book>.field>select{
+  
+  margin-left: 60px;
+ }
+ #add-book>button{
+   margin-left: 70px;
+   margin-top: 20px;
+   color: #880E4f;
+ }
+ #add-book>button:hover{
+  background-color: #880E4f;
+  color:white
 }
